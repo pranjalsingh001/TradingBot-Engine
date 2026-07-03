@@ -1,43 +1,15 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
+# Node
+node_modules/
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+build/
 
-# Pytest
-.pytest_cache/
-
-# Environments
+# Python
 venv/
-env/
+__pycache__/
+*.pyc
+
+# Env
 .env
 
-# Project specific
-logs/*.log
-logs/*.txt
-app/data/*.json
-paper_state.json
-
-# IDEs
-.vscode/
-.idea/
+# MacOS
+.DS_Store
